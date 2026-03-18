@@ -1,19 +1,19 @@
-export function add(a: number, b: number): number {
+export function clamp(value: number, min: number, max: number): number {
   return 0
 }
 
-export function isEven(n: number): boolean {
+export function isBetween(value: number, min: number, max: number): boolean {
   return false
 }
 
-export function first<T>(array: T[]): T {
-  return array[0]
+export function first<T>(array: T[]): T | undefined {
+  return undefined
 }
 
-export function makeUser(name: string, age: number) {
-  return { name, age }
+export function pluckNames(items: { name: string }[]): string[] {
+  return []
 }
 
-export function printLength(text: string): number {
-  return 0
+export function repeat(text: string, count: number): string {
+  return ''
 }
